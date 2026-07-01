@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "schildblase",
+  "version": "${version}",
+  "name": "Schildblase",
+  "description": "Platziere Schildblasen-Projektoren, die dramatische Energie-Schutzkuppeln in die Welt projizieren.",
+  "authors": ["Schildblase Team"],
+  "license": "MIT",
+  "icon": "assets/schildblase/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.schildblase.Schildblase"],
+    "client": ["de.schildblase.client.SchildblaseClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "veil": "*"
+  }
+}
